@@ -4,8 +4,8 @@ let password1 = document.getElementById("password-1");
 let password2 = document.getElementById("password-2");
 
 function generatePasswords() {
-    password1.innerText = generatePassword();
-    password2.innerText = generatePassword();
+    password1.textContent = generatePassword();
+    password2.textContent = generatePassword();
 }
 
 function generatePassword() {
